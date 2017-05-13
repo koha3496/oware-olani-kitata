@@ -39,9 +39,8 @@ public class OwareGame {
 				}
 			} catch (Exception e) {
 				e.printStackTrace();
-			System.out.println("You have entered a value that is not numeric please try again.");
-			System.out.println("Your valid entries are from " + validPitNumbersForCurrentPlayer);
-			scan.nextLine();
+				System.out.println("You have entered a value that is not numeric please try again.\n" +
+						   "Your valid entries are from " + validPitNumbersForCurrentPlayer);
 			}
 		}
 		return playersChoice;
